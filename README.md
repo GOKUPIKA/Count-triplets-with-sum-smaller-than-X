@@ -28,11 +28,11 @@ This is a function problem. You don't need to take any input, as it is already a
 **Expected Auxiliary Space:** O(1).
 
 
-            #APPROACH
-**STEP 1**: make variable to store the count of triplet.
-**STEP 2:** sort the array in ascending order.
-**STEP 3:** traversing through the array till n-2 using for loop
-**STEP 4:** initailise the to other variable for the comparison purpose for finding triplet
-**STEP 5:** if sum of array[i]+array[j]+array[k] is greater or equal than given sum decarese the k-- or if sum of array[i]+array[j]+array[k] is less than given sum then we store the count in our ans variable and increment j++;
+#APPROACH
+* **STEP 1**: make variable to store the count of triplet.
+* **STEP 2:** sort the array in ascending order.
+* **STEP 3:** traversing through the array till n-2 using for loop
+* **STEP 4:** initailise the to other variable for the comparison purpose for finding triplet
+* **STEP 5:** if sum of array[i]+array[j]+array[k] is greater or equal than given sum decarese the k-- or if sum of array[i]+array[j]+array[k] is less than given sum then we store the count in our ans variable and increment j++;
 
-**TIME COMPLEXITY: ** O(n2)
+**TIME COMPLEXITY:O(n2)**
