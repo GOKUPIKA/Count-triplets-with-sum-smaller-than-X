@@ -28,7 +28,7 @@ This is a function problem. You don't need to take any input, as it is already a
 **Expected Auxiliary Space:** O(1).
 
 
-#APPROACH
+# APPROACH
 * **STEP 1**: make variable to store the count of triplet.
 * **STEP 2:** sort the array in ascending order.
 * **STEP 3:** traversing through the array till n-2 using for loop
